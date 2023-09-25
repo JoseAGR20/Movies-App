@@ -5,3 +5,33 @@ body {
 h1 {
     color: white;
 }
+
+input {
+    background-color: #f2ecec;
+}
+
+.input:hover {
+    background-color: #555; /* Darker background color on hover */
+}
+
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #555; /* Darker background color on hover */
+}
+
+.stack-element {
+    display: block;
+    margin: 20px;
+}
