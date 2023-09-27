@@ -8,11 +8,14 @@
 </head>
 <body>
     <h1>Movies</h1>
-    <form>
-        <input class= "stack-element" text="" placeholder="Tittle">
-        <input class="stack-element" text="" placeholder="Rating">
+    <form id="myForm">
+        <label for="Tittle"> Tittle:</label>
+        <input class= "stack-element" id="tittle" type="text">
+        <label for="Rating"> Rating:</label>
+        <input class="stack-element" id="rating" type="number">
         <button class="stack-element">Submit</button>
     </form>
+    <div id="result">Result</div>
     <script   src="https://code.jquery.com/jquery-3.7.1.min.js"   
             integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="   
             crossorigin="anonymous"></script>
