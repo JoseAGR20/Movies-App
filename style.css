@@ -1,10 +1,20 @@
 body {
-    font-family: sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(184, 184, 184);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: #f2ecec;
+}
+
+#result {
+    font-size: 20px;
 }
 
 h1 {
-   font-family: sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    font-size: 50px;
 }
 
 input {
